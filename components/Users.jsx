@@ -11,7 +11,7 @@ export default function Users({ users }) {
                 users.map((user) => (
                     <li key={user.id}
                      onClick={() =>{
-                        router.push (`/users/${user.id}`)
+                        router.push (`/user/${user.id}`)
                      }}
 
                     >
